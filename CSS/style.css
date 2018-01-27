@@ -1,0 +1,321 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.landingSection {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,  
+    #66a6ff, #FD746C, 
+    #67B26F,
+     #00C9FF, 
+     #80d0c7,#cbb4d4,#DCE35B,#DCE35B);
+  background-repeat: no-repeat;
+  background-size: 1000% 1000%;
+  animation: gradient 450s ease infinite;
+   padding-bottom: 20px;
+}
+
+@keyframes gradient { 
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+
+.logo {
+    font-family: Lobster;
+    font-size: 2.5em;
+    
+    margin-top: 10px auto;
+    color: white;
+}
+.menu {
+    color: white;
+    margin-top: 20px; auto;
+    margin-left: 10px;
+    font-family: Quicksand;
+    
+}
+.menu:hover {
+    color: blueviolet;
+    font-weight: bold;
+}
+.logInButton {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    width: 100%;
+    margin: 11px;
+    background-color: lightskyblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
+    
+}
+.logInButton:hover {
+    box-shadow: none;
+    background-color: violet;
+    color: white !important;
+    
+    
+}
+.learnMoreButton {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    width: 50%;
+    background-color: lightskyblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px 0 rgba(46,61,73,.15);
+    padding-bottom: 50px;
+    
+}
+.learnMoreButton:hover {
+    background-color: violet;
+    color: white !important;
+    box-shadow: none;
+}
+
+.cardLeft {
+    /* Add shadows to create the "card" effect */
+    
+    overflow: hidden;
+    border-radius: 0.75rem;
+    height: 500px;
+    width: 500px auto;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;
+    margin-left: 30px;
+
+}
+
+
+.cardLeft:hover {
+    
+}
+
+.cardMiddle {
+    /* Add shadows to create the "card" effect */
+    background: linear-gradient(to right, #b993d6, #8ca6db);
+    
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    height: 500px;
+    width: 350px auto;
+    margin-top: 70px;
+    box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
+    transition: 0.4s;
+   
+    
+
+}
+
+
+.cardMiddle:hover {
+    
+}
+.cardRightTop {
+    /* Add shadows to create the "card" effect */
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    background: linear-gradient(to right, #eecda3, #ef629f);
+    overflow: hidden;
+    border-radius: 0.75rem;
+    height: 150px;
+    width: 282px auto;
+    margin-top: 70px;
+    transition: 0.4s;
+    box-shadow: 12px 15px 20px 5px rgba(46,61,73,.15);
+    margin-right: 30px;
+    
+    
+} 
+
+.cardRightTop:hover {
+    box-shadow: none;
+}
+.cardRightMiddle {
+    /* Add shadows to create the "card" effect */
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    background: linear-gradient(to right, #eecda3, #ef629f);
+    overflow: hidden;
+    border-radius: 0.75rem;
+    height: 150px;
+    box-shadow: 12px 15px 20px 5px rgba(46,61,73,.15);
+    transition: 0.3s;
+    margin-top: 25px;
+    margin-right: 30px;
+    
+    
+
+} 
+
+.cardRightMiddle:hover {
+    box-shadow: none;
+}
+
+.cardRightBottom {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    background: linear-gradient(to right, #eecda3, #ef629f);
+    overflow: hidden;
+    border-radius: 0.75rem;
+    height: 150px;
+    
+    box-shadow: 12px 15px 20px 5px rgba(46,61,73,.15);
+    transition: 0.3s;
+    margin-top: 25px;
+    margin-right: 30px;
+    
+    
+
+} 
+
+.cardRightBottom:hover {
+    box-shadow: none;
+}
+.containerCard {
+    padding: 2px 16px;
+}
+
+#videoDiv {width: 100% auto; height: 360px; position: relative; left: 0%;}
+#videoBlock {width: 100%; height: 100%;  display: flex;  justify-content: center; align-items: center;}
+#videoLayer {
+    background-color: rgba(31, 162, 255, 0.33);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 150%;
+    overflow: hidden;
+    
+}
+#video {
+    position: absolute;
+    z-index: 0;
+}
+video.fillWidth {
+    width: 100%;
+}
+.containerCardCommon {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.header {
+    margin-top: 20px;
+}
+.cardCommonContent {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.featuresSection {
+    background-color: white;
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    .menu {
+        display: none;
+    }
+    
+    
+}
+@media only screen and (max-height:600px) {
+    .landingSection {
+        height: auto;
+    }
+    
+       
+}
+.cardsFix {
+    margin-bottom: 20px;
+}
+
+.featuresBar {
+    width: auto;
+    height: 200px;
+    background-image: linear-gradient(to top, #FFFFFF 05%, #B8FFF8 100%);
+    display: block !important;
+}
+.footer {
+  height: 200px;
+  background-image: linear-gradient(to bottom, #FFFFFF 05%, #B8FFF8 100%);
+  width: auto;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: 4.5fr 1.8fr 2.2fr;
+    grid-column-gap: 20px;
+    margin: auto;
+    grid-auto-rows: minimax(300px, auto);
+    grid-template-areas:
+        "cardLeft cardMiddle cardRight";
+}
+
+.cardLeft {
+    grid-area: cardLeft;
+}
+.cardMiddle {
+    grid-area: cardMiddle;
+}
+.cardRight {
+    grid-area: cardRight;
+}
+
+@media only screen and (max-width: 760px) {
+    .grid-container-1 {
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr;
+    grid-column-gap: 20px;
+    margin: auto;
+    grid-auto-rows: minimax(100px, auto);
+    grid-template-areas:
+        "cardLeft cardLeft cardLeft"
+        "cardMiddle cardMiddle cardMiddle"
+        "cardRight cardRight cardRight";
+    }
+    
+}
+.featuresIntroduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+
+
+.footerSection {
+    display: grid;
+    grid-template-columns: 1fr;
+}
